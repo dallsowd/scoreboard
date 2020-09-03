@@ -15,7 +15,7 @@ function authenticate() {
 }
 
 function login(username, password) {
-    var users = [{username: "guest", password:"password"},{username: "cazza", password:"beats"},{username: "damian", password:"securebattle"},{username: "cazza", password:"beats"},{username: "cazza", password:"beats"}];
+    var users = [{username: "guest", password:"password"},{username: "cazza", password:"beats"},{username: "damian", password:"securebattle"},{username: "paul", password:"securebattle"},{username: "verrall", password:"securebattle"},{username: "nicholas", password:"securebattle"}];
 
 for (i = 0; i < users.length; i++) {
   if(username == users[i].username && password == users[i].password) {
