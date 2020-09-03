@@ -17,6 +17,6 @@ function status() {
   if(loggedIn) {
     document.location.href = "fdffhjk6uhugywetehn5,mutytdrusefrdgbjr67gtgrtyfrvb6uk5f.html";
   } else {
-    console.log('You are not in :(');
+    alert('You are not in :(');
   }
 }
