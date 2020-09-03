@@ -15,7 +15,7 @@ function authenticate() {
 }
 
 function login(username, password) {
-    var users = [{username: "dallsowd", password:"28118"},{username: "sowdedj", password:"28118"}];
+    var users = [{username: "guest", password:"password"},{username: "cazza", password:"beats"}];
 
 for (i = 0; i < users.length; i++) {
   if(username == users[i].username && password == users[i].password) {
